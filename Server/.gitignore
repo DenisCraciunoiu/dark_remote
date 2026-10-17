@@ -1,0 +1,47 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# PyInstaller generated files
+build/
+dist/
+*.spec
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs and local runtime files
+*.log
+*.pid
+
+# Coverage and test reports
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Local environment and configuration overrides
+.env
+.env.*
+!.env.example
+
+# Windows and macOS metadata
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
